@@ -7,13 +7,19 @@ In this assignment I was tasked to build and evaluate several machine learning m
 ---
 
 *Resampling models used:*
+
 1.Naive Random Oversampling
+
 2.SMOTE Oversampling
+
 3.Undersampling(ClusterCentroid)
+
 4.SMOTEENN 
 
 *Ensemble Methods used:*
+
 1.Balanced Random Forest Classifier
+
 2.Easy Ensemble Classifier
 
 ---
