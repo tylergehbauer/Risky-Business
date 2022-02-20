@@ -6,7 +6,7 @@ In this assignment I was tasked to build and evaluate several machine learning m
 
 ---
 
-*Resampling models used:*
+*Resampling algorithms used:*
 
 1.Naive Random Oversampling
 
@@ -26,7 +26,7 @@ In this assignment I was tasked to build and evaluate several machine learning m
 ## How:
 Each model had a very similar set up. I first had to read in the data and make sure every column (besides our target) had numerical values. Thus I used Pandas .get_dummies function to achieve this. This would take columns with categorical data and turn it into dummy variables. This would allow me to scale the data. Scaling basically normalizes the training and testing data so the results aren’t skewed when using the models to predict credit risk. From here all steps were the same with the exception of which model/sampling method I used. First I would create variables for the features (X) and target (y), then split them into training and testing sets using the train_test_split function (from sklearn). I would then scale the data from here. The training sets would be used to train and fit the models and the testing sets would be used to see how accurate the model was. 
 
-For the resampling notebook, I would resample data (using multiple methods) so the training data would be balanced (have no bias), then I would run it through the simple logistic model. 
+For the resampling notebook, I would resample data (using multiple methods) so that the training data would be balanced (have no bias), then I would run it through the simple logistic model. 
 I would then use the classification report (from imblearn) and balanced accuracy score (from sklearn) to determine which model was the best.
 
 For the ensemble notebook it was even simpler since I didn’t have to resample the data.  
